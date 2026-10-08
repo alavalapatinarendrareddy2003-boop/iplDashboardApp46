@@ -1,0 +1,81 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.latest-match-card-container {
+  background-color: #0f172a80;
+  border: 1px solid #475569;
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-card-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.main-info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .main-info-container {
+    width: 40%;
+  }
+}
+
+.competing-team-title {
+  color: #ffffff;
+  font-size: 24px;
+  margin-top: 0px;
+}
+
+.match-date,
+.match-venue,
+.match-result,
+.info-value {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.competing-team-logo-lg {
+  width: 120px;
+}
+
+.separator {
+  border: 1px solid #475569;
+  width: 100%;
+  margin: 16px 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .separator {
+    display: none;
+  }
+}
+
+.detailed-info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .detailed-info-container {
+    align-items: flex-end;
+    text-align: right;
+    width: 40%;
+  }
+}
+
+.info-label {
+  color: #475569;
+  font-size: 14px;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
